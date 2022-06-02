@@ -27,7 +27,7 @@ def AddTask(request):
             return JsonResponse({'response':"Invalid Fields"})
         try:
             task = Task(name=name,desc= desc,email = email)
-            task.save();
+            task.save()
             return JsonResponse({"response":"Task Added "})
         except:
             return JsonResponse({"response":"Database Failure"})
