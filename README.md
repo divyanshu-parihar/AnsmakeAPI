@@ -1,7 +1,6 @@
 
-# AnsmakeAPi
+# django-postgresql-api
 
-Assignment for Internshala internship.
 
 ## Example Usage
 
